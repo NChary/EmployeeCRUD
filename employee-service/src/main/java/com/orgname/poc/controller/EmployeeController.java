@@ -48,8 +48,10 @@ public class EmployeeController {
 	public String deleteDetails(@RequestBody FacebookRegistration facebookRegistration) {
 		return facebookRegisterService.deleteDetails(facebookRegistration);
 	}
+	
+	
 	public void test()
 	{
-
+		System.out.println("This code is added by Chary");
 	}
 }
